@@ -8,10 +8,14 @@ OS: Linux
 May possibly work on a Mac
 
 # Script List
--server/server-init.sh Bash script to begin developing an api server
--server/server.conf Configuration file for server-init.sh script
--server/kill-port.sh Bash script to kill an application running on a specified port
--snippets/snippets.json 
+-server/server-init.sh ==> Bash script to begin developing an api server
+-server/server.conf ==> Configuration file for server-init.sh script
+-server/kill-port.sh ==> Bash script to kill an application running on a specified port
+-snippets/snippets.json ==> Some user defined snippets from vscode
+-gitscripts/branch.sh ==> Bash script to create new git branch with option to push
+-gitscripts/first-push.sh ==> Bash script to make the first push w/option to push to a new branch or the master
+-gitscripts/init.sh ==> Bash script to initialize a local git repository 
+-gitscripts/push.sh ==> Bash script to push to git remote repository after the initial push
 
 # How to Use:
 
