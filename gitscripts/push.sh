@@ -4,9 +4,9 @@ read -p 'Enter commit message: ' msg
 
 echo
 
-git add .&&
+git add . &&
 
-git commit -m $msg&&
+git commit -m $msg &&
 
 clear
 
