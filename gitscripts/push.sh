@@ -1,13 +1,11 @@
 #!/bin/bash 
 
-read -p 'Enter commit message: ' msg 
+git add .&&
 
-echo
+read -p 'Enter commit message: ' msg &&
 
-git add . &&
+git commit -m "$msg"&&
 
-git commit -m $msg &&
-
-clear
+clear&&
 
 git push
