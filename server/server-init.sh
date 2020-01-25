@@ -32,7 +32,7 @@ echo "$auth_model"&&
 
 echo "$user_model"&&
 
-echo $git&&
+echo $git
 
 
 #Creator/Contributor: ikeman32:David Isakson 
