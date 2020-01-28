@@ -26,13 +26,18 @@ echo "$index" > index.js&&
 
 echo "$server" > api/server.js&&
 
+touch $routers&&
+
 echo "$auth_middleware" > api/authenticate-middleware.js&&
 
-echo "$auth_model"&&
+echo "$knexfile" > knexfile.js&&
 
-echo "$user_model"&&
+echo "$auth_model" > auth/authModel.js&&
 
-echo $git
+echo "$user_model" > users/userModel.js&&
+
+#Not yet functional will probably just place the separate git commands here
+#echo $git
 
 
 #Creator/Contributor: ikeman32:David Isakson 
